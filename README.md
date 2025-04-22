@@ -1,6 +1,6 @@
 # 🧩 GenericGridLayout
 
-A reusable and highly customizable `GenericGridLayout` SwiftUI component that enables dynamic horizontal grid arrangements using **any SwiftUI `View`**. It supports multiple rows, dynamic item arrangement, and promotes modularity and reusability across your SwiftUI projects.
+A reusable and highly customizable `GenericGridLayout` SwiftUI component that enables dynamic horizontal grid arrangements using **any SwiftUI `View`** and any number of items to fill in horizonatally. It supports multiple rows, dynamic item arrangement, and promotes modularity and reusability across your SwiftUI projects.
 
 ---
 
@@ -23,7 +23,7 @@ A reusable and highly customizable `GenericGridLayout` SwiftUI component that en
    `File` → `Add Packages...`
 
 2. Enter the repository URL:
-https://github.com/your-username/GenericGridLayout.git
+https://github.com/FarrukhRasool/GenericGridLayout.git
 
 3. Choose a version (e.g., `from 1.0.0`)
 
@@ -32,7 +32,7 @@ OR
 ### Add manually to your `Package.swift`:
 
 swift
-.package(url: "https://github.com/your-username/GenericGridLayout.git", from: "1.0.0")
+.package(url: "https://github.com/FarrukhRasool/GenericGridLayout.git", from: "1.0.0")
 
 🧑‍💻 Usage
 Step 1: Import the Package
@@ -41,25 +41,14 @@ import GenericGridLayout
 
 Step 2: Use GenericGridLayout in Your View
 
-GenericGridLayout(data: myDataArray) { item in
-    VStack {
-        Circle()
-            .fill(Color.blue)
-            .frame(width: 30, height: 30)
-        Text(item)
-            .font(.caption)
-    }
-}
-
-
-data: Your data array (e.g., [String], [Model], etc.)
+data: Your data array (e.g., [String], [Model], etc.
 
 content: A closure that builds a SwiftUI View for each item
 
 
 
 
-📷 Demo
+<img width="260" alt="Screenshot 2025-04-23 at 12 21 35 AM" src="https://github.com/user-attachments/assets/46583946-2ff3-446e-a776-7599d835bdf6" />
 
 
 
