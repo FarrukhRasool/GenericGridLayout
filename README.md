@@ -64,5 +64,3 @@ For questions, feel free to reach out via GitHub Issues or create a discussion.
 
 
 ---
-
-Let me know if you'd like help customizing the demo section with a real screenshot/GIF, or want me to scaffold a sample app using this component.
